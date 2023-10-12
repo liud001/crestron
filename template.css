@@ -9,10 +9,10 @@ https://github.com/liud001/crestron/blob/main/template.css
 .screensaver__container__reserved__content {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 16vh;
+font-size: 10vh;
 font-weight: 500;
 line-height: 6.2;
-margin-left: -15;
+margin-left: -5;
 }
 /* Available details section */
 .screensaver__container__available__content {
