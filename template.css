@@ -1,13 +1,18 @@
-/* Manual: https://p.widencdn.net/xxzys4/mg_pg_crestron_room_scheduling_panels */
-/* Direct link for Crestron https://cdn.jsdelivr.net/gh/liud001/crestron/template.css */
+/* 
+Manual: https://p.widencdn.net/xxzys4/mg_pg_crestron_room_scheduling_panels
+Direct link for Crestron https://cdn.jsdelivr.net/gh/liud001/crestron/template.css 
+https://github.com/liud001/crestron/blob/main/template.css
+*/
+
 
 /* Reserved details section */
 .screensaver__container__reserved__content {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 6vh;
+font-size: 16vh;
 font-weight: 500;
-line-height: 1.2;
+line-height: 6.2;
+margin-left: -15;
 }
 /* Available details section */
 .screensaver__container__available__content {
