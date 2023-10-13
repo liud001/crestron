@@ -12,7 +12,8 @@ font-style: normal;
 font-size: 10vh;
 font-weight: 500;
 line-height: 6.2;
-margin-left: -5;
+margin-top: -1;
+margin-left: -1;
 }
 /* Available details section */
 .screensaver__container__available__content {
