@@ -10,12 +10,11 @@ margin-left: -.25em;
 .screensaver__container__reserved__content {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 16vh;
+font-size: 6vh;
 font-weight: 500;
 line-height: 1.2;
-margin-top: +10;
 display: inline-block;
-text-indent: -18px;
+text-indent: -30px;
 overflow: hidden;
 }
 /* Available details section */
@@ -33,9 +32,6 @@ font-style: normal;
 line-height: .75em;
 font-size: 6.3333333333vh;
 font-weight: 400;
-display: inline-block;
-text-indent: -18px;
-overflow: hidden;
 }
 /* Time screensaver */
 .screensaver__container__current-time__time {
