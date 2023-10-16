@@ -2,6 +2,7 @@
 Manual: https://p.widencdn.net/xxzys4/mg_pg_crestron_room_scheduling_panels
 Direct link for Crestron https://cdn.jsdelivr.net/gh/liud001/crestron/template.css 
 https://githubraw.com/liud001/crestron/main/template.css
+margin-left: -.25em;
 */
 
 
@@ -12,8 +13,8 @@ font-style: normal;
 font-size: 6vh;
 font-weight: 500;
 line-height: 1.2;
-/*margin-top: -.25em;
-margin-left: -.25em;*/
+margin-top: -.25em;
+
 }
 /* Available details section */
 .screensaver__container__available__content {
