@@ -14,8 +14,9 @@ font-size: 6vh;
 font-weight: 500;
 line-height: 1.2;
 margin-top: +10;
-text-indent: -9999px;
-white-space: nowrap;
+display: inline-block;
+text-indent: -18px;
+overflow: hidden;
 
 }
 /* Available details section */
