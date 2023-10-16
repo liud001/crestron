@@ -9,9 +9,9 @@ https://githubraw.com/liud001/crestron/main/template.css
 .screensaver__container__reserved__content {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 10vh;
+font-size: 6vh;
 font-weight: 500;
-line-height: 6.2;
+line-height: 1.2;
 /*margin-top: -.25em;
 margin-left: -.25em;*/
 }
@@ -19,9 +19,9 @@ margin-left: -.25em;*/
 .screensaver__container__available__content {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 9vh;
+font-size: 6vh;
 font-weight: 500;
-line-height: 4.2;
+line-height: 1.2;
 }
 /* Date screensaver */
 .screensaver__container__current-time__date {
