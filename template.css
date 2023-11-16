@@ -10,11 +10,11 @@ text-indent: -20px;
 .screensaver__container__reserved__content {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 6vh;
+font-size: 8vh;
 font-weight: 500;
 line-height: 1.2;
 display: block;
-margin-left: -4em;
+margin-left: -2em;
 
 /* Available details section */
 .screensaver__container__available__content {
