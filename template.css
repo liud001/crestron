@@ -15,9 +15,8 @@ font-weight: 500;
 line-height: 1.2;
 display: block;
 text-indent: -20px;
-<h2>display: inline-block</h2>
-<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="b">Aliquam</span> <span class="b">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
-}
+margin-left: -5em;
+
 /* Available details section */
 .screensaver__container__available__content {
 font-family: Crestron,sans-serif;
