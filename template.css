@@ -13,9 +13,9 @@ font-style: normal;
 font-size: 6vh;
 font-weight: 500;
 line-height: 1.2;
-display: inline-block;
-text-indent: -60px;
-overflow: hidden;
+display: block;
+text-indent: -40px;
+
 }
 /* Available details section */
 .screensaver__container__available__content {
