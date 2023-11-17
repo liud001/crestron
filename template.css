@@ -3,6 +3,7 @@ Manual: https://p.widencdn.net/xxzys4/mg_pg_crestron_room_scheduling_panels
 Direct link for Crestron https://cdn.jsdelivr.net/gh/liud001/crestron/template.css 
 https://githubraw.com/liud001/crestron/main/template.css
 text-indent: -20px;
+border-color: rgba(255,44,85,0.8);
 */
 
 
@@ -47,7 +48,7 @@ height: 9vh;
 }
 /* Border color screensaver layout when reserved */
 .screensaver__container--reserved {
-border-color: rgba(255,44,85,0.8);
+border-color: #ffffff;
 }
 /* Border color screensaver layout when available */
 .screensaver__container--available {
