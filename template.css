@@ -80,11 +80,11 @@ margin-top: 2.5vh;
 font-family: Crestron,sans-serif;
 font-style: normal;
 line-height: .75em;
-font-size: 6vh;
+font-size: 1vh;
 font-weight: 400;
 margin-top: 4.3333333333vh;
 letter-spacing: 1px;
-text-transform: uppercase;
+text-transform: lowercase;
 display: block;
 }
 /* 'For next' label */
@@ -103,12 +103,12 @@ display: block;
 .room__container--reserved .room__container__status__title__label1,
 .room__container--reserved .room__container__status__countdown__hours__number,
 .room__container--reserved .room__container__status__countdown__minutes__number {
-color: #ff2c55;
+color: #0000ff;
 }
 /* Color for 'minutes label' and 'hours label' if reserved */
 .room__container--reserved .room__container__status__countdown__hours__time,
 .room__container--reserved .room__container__status__countdown__minutes__time {
-color: #ff2c55;
+color: #0000ff;
 border: 1px solid transparent;
 -moz-border-image: -moz-linear-gradient(top,#ff2c55 0,#f5317b 100%);
 -webkit-border-image: -webkit-linear-gradient(top,#ff2c55 0,#f5317b 100%);
@@ -119,12 +119,12 @@ border-image-slice: 1;
 .room__container--available .room__container__status__title__label1,
 .room__container--available .room__container__status__countdown__hours__number,
 .room__container--available .room__container__status__countdown__minutes__number {
-color: #3cf799;
+color: #0000ff;
 }
 /* Color for 'minutes label' and 'hours label' if available */
 .room__container--available .room__container__status__countdown__hours__time,
 .room__container--available .room__container__status__countdown__minutes__time {
-color: #3cf799;
+color: #0000ff;
 border: 1px solid transparent;
 -moz-border-image: -moz-linear-gradient(top,#3cf799 0,#57f171 100%);
 -webkit-border-image: -webkit-linear-gradient(top,#3cf799 0,#57f171 100%);
