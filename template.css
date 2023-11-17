@@ -16,6 +16,8 @@ font-weight: 500;
 line-height: 1.2;
 display: block;
 margin-left: -3.5em;
+color: white
+}
 
 /* Available details section */
 .screensaver__container__available__content {
