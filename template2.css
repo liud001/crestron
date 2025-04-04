@@ -20,13 +20,7 @@ margin-top: -8.5em;
 }
 
 /* Available details section */
-.screensaver__container__available__content {
-font-family: Crestron,sans-serif;
-font-style: normal;
-font-size: 6vh;
-font-weight: 500;
-line-height: 1.2;
-}
+
 /* Date screensaver */
 .screensaver__container__current-time__date {
 font-family: Crestron,sans-serif;
