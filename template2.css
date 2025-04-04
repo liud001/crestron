@@ -20,7 +20,13 @@ margin-top: -8.5em;
 }
 
 /* Available details section */
-
+.screensaver__container__available__content {
+font-family: Crestron,sans-serif;
+font-style: normal;
+font-size: 1vh;
+font-weight: 1;
+line-height: 1.2;
+}
 /* Date screensaver */
 .screensaver__container__current-time__date {
 font-family: Crestron,sans-serif;
@@ -55,8 +61,8 @@ border-color: #3cf799;
 .room__container__room-details__name {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 9vh;
-font-weight: 400;
+font-size: 1vh;
+font-weight: 1;
 text-transform: capitalize;
 line-height: 3.2;
 margin-top: -.25em;
