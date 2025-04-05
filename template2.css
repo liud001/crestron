@@ -11,8 +11,8 @@ border-color: rgba(255,44,85,0.8);
 .screensaver__container__reserved__content {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 8vh;
-font-weight: 500;
+font-size: 1vh;
+font-weight: 1;
 line-height: 1.2;
 display: block;
 margin-left: -3.5em;
