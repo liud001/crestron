@@ -1,20 +1,33 @@
-/* Hide default status text */
-.status-text, 
-.no-meeting-text, 
-.available-text {
+/* Force-hide all default status text elements */
+#statusText,
+#noMeetingLabel,
+#availableLabel,
+.status-text,
+.no-meeting-text,
+.available-text,
+div[id*="status"],
+div[class*="status"] {
+    visibility: hidden !important;
     display: none !important;
 }
 
-/* Optional: adjust layout after removing text */
-.status-container {
-    justify-content: center;
-    align-items: center;
-    height: 100%;
+/* Also hide any child spans that might hold text */
+#statusText span,
+.status-text span {
+    display: none !important;
 }
 
-/* Optional: add your own custom message */
-.status-container::after {
-    content: " "; /* Leave blank or add your own text */
+/* Optional: remove padding so layout doesn't look empty */
+.status-container,
+#statusContainer {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Optional: replace with your own message */
+.status-container::after,
+#statusContainer::after {
+    content: "" !important; /* Leave blank or add custom text */
     font-size: 1.5em;
     color: #FFFFFF;
 }
