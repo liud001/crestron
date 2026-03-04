@@ -1,33 +1,25 @@
-/* Hide idle/attract mode text */
-#idleText,
-#screensaverText,
-.idle-text,
-.screensaver-text,
-div[id*="idle"],
-div[class*="idle"] {
+/* Target any text in idle/attract mode overlay */
+[id*="Idle"],
+[class*="Idle"],
+[id*="idle"],
+[class*="idle"],
+[id*="screensaver"],
+[class*="screensaver"] {
+    color: transparent !important;
     visibility: hidden !important;
     display: none !important;
 }
 
-/* Hide any child spans or paragraphs */
-#idleText span,
-#idleText p,
-.idle-text span,
-.idle-text p {
+/* Hide all child text nodes inside idle containers */
+[id*="Idle"] *:not(img),
+[class*="Idle"] *:not(img),
+[id*="idle"] *:not(img),
+[class*="idle"] *:not(img) {
     display: none !important;
 }
 
-/* Optional: remove padding/margins for a clean look */
-#idleContainer,
-.idle-container {
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-/* Optional: replace with your own message or leave blank */
-#idleContainer::after,
-.idle-container::after {
-    content: "" !important; /* Add custom text here if desired */
-    font-size: 1.5em;
-    color: #FFFFFF;
+/* Optional: keep background/logo but remove text */
+[id*="Idle"] img,
+[class*="Idle"] img {
+    display: block !important;
 }
