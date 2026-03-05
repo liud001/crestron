@@ -17,10 +17,10 @@ div, span, p, h1, h2, h3, h4, h5, h6 {
 
 /* Override room name */
 .roomName, .room-name {
-    font-size: 1px !important;
+    font-size: 10px !important;
 }
 
 /* Override status text */
 .status, .status-text {
-    font-size: 1px !important;
+    font-size: 5px !important;
 }
