@@ -1,4 +1,4 @@
-/* Target any text in idle/attract mode overlay */
+/* Target any text in idle/attract mode overlay 
 [id*="Idle"],
 [class*="Idle"],
 [id*="idle"],
@@ -9,6 +9,7 @@
     visibility: hidden !important;
     display: none !important;
 }
+*/
 
 /* Hide all child text nodes inside idle containers */
 [id*="Idle"] *:not(img),
