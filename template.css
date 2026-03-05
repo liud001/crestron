@@ -1,0 +1,29 @@
+/* Hide only the idle screen text layer */
+.idle-text,
+#idleText,
+.screensaver-text,
+#screensaverText {
+    visibility: hidden !important;
+    display: none !important;
+}
+
+/* Also hide any text spans or paragraphs inside the idle text container */
+.idle-text span,
+.idle-text p,
+#idleText span,
+#idleText p,
+.screensaver-text span,
+.screensaver-text p,
+#screensaverText span,
+#screensaverText p {
+    display: none !important;
+}
+
+/* Keep background, clock, and images visible */
+.idle-container img,
+#idleContainer img,
+.screensaver-container img,
+#screensaverContainer img {
+    display: block !important;
+    visibility: visible !important;
+}
