@@ -1,33 +1,17 @@
-/* Force-hide all default status text elements */
-#statusText,
-#noMeetingLabel,
-#availableLabel,
-.status-text,
-.no-meeting-text,
-.available-text,
-div[id*="status"],
-div[class*="status"] {
-    visibility: hidden !important;
-    display: none !important;
+/* Global font size override for TSS-7 scheduling panel */
+body, html {
+    font-size: 1px !important;
 }
 
-/* Also hide any child spans that might hold text */
-#statusText span,
-.status-text span {
-    display: none !important;
+/* Optional: target specific elements */
+.meeting-title {
+    font-size: 1px !important;
 }
 
-/* Optional: remove padding so layout doesn't look empty */
-.status-container,
-#statusContainer {
-    padding: 0 !important;
-    margin: 0 !important;
+.room-name {
+    font-size: 1px !important;
 }
 
-/* Optional: replace with your own message */
-.status-container::after,
-#statusContainer::after {
-    content: "HELLO WORLD" !important; /* Leave blank or add custom text */
-    font-size: 1.5em;
-    color: #FFFFFF;
+.status-text {
+    font-size: 1px !important;
 }
