@@ -6,8 +6,8 @@
 [id*="screensaver"],
 [class*="screensaver"] {
     color: transparent !important;
-    /*visibility: hidden !important; */
-    display: none !important;
+    visibility: hidden !important;
+   /* display: none !important; */
 }
 
 
