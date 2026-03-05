@@ -1,13 +1,15 @@
 /* Target any text in idle/attract mode overlay */
+/*
 [id*="Idle"],
 [class*="Idle"],
 [id*="idle"],
 [class*="idle"],
+*/
 [id*="screensaver"],
 [class*="screensaver"] {
     color: transparent !important;
     visibility: hidden !important;
-   /* display: none !important; */
+    display: none !important;
 }
 
 
