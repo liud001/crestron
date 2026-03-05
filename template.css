@@ -1,0 +1,26 @@
+/* Target any text in idle/attract mode overlay */
+[id*="Idle"],
+[class*="Idle"],
+[id*="idle"],
+[class*="idle"],
+[id*="screensaver"],
+[class*="screensaver"] {
+    color: transparent !important;
+    visibility: hidden !important;
+   /* display: none !important; */
+}
+
+
+/* Hide all child text nodes inside idle containers */
+[id*="Idle"] *:not(img),
+[class*="Idle"] *:not(img),
+[id*="idle"] *:not(img),
+[class*="idle"] *:not(img) {
+    display: none !important;
+}
+
+/* Optional: keep background/logo but remove text */
+[id*="Idle"] img,
+[class*="Idle"] img {
+    display: block !important;
+}
