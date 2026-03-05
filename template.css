@@ -1,28 +1,33 @@
-/* Target any text in idle/attract mode overlay */
-/*
-[id*="Idle"],
-[class*="Idle"],
-[id*="idle"],
-[class*="idle"],
-*/
-[id*="screensaver"],
-[class*="screensaver"] {
-    color: transparent !important;
+/* Force-hide all default status text elements */
+#statusText,
+#noMeetingLabel,
+#availableLabel,
+.status-text,
+.no-meeting-text,
+.available-text,
+div[id*="status"],
+div[class*="status"] {
     visibility: hidden !important;
     display: none !important;
 }
 
-
-/* Hide all child text nodes inside idle containers */
-[id*="Idle"] *:not(img),
-[class*="Idle"] *:not(img),
-[id*="idle"] *:not(img),
-[class*="idle"] *:not(img) {
+/* Also hide any child spans that might hold text */
+#statusText span,
+.status-text span {
     display: none !important;
 }
 
-/* Optional: keep background/logo but remove text */
-[id*="Idle"] img,
-[class*="Idle"] img {
-    display: block !important;
+/* Optional: remove padding so layout doesn't look empty */
+.status-container,
+#statusContainer {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Optional: replace with your own message */
+.status-container::after,
+#statusContainer::after {
+    content: "" !important; /* Leave blank or add custom text */
+    font-size: 1.5em;
+    color: #FFFFFF;
 }
