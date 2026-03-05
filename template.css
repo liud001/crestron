@@ -27,7 +27,7 @@ div[class*="status"] {
 /* Optional: replace with your own message */
 .status-container::after,
 #statusContainer::after {
-    content: "" !important; /* Leave blank or add custom text */
+    content: "HELLO WORLD" !important; /* Leave blank or add custom text */
     font-size: 1.5em;
     color: #FFFFFF;
 }
