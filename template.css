@@ -2,11 +2,10 @@
 .room__container__status__title__label1 {
 font-family: Crestron,sans-serif;
 font-style: normal;
-line-height: .75em;
-font-size: 6vh;
-font-weight: 400;
+font-size: 60px !important;
+line-height: 60px !important;
 margin-top: 4.3333333333vh;
-letter-spacing: 1px;
+letter-spacing: 5px;
 text-transform: uppercase;
 display: block;
 }
