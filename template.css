@@ -6,13 +6,13 @@
 
 /* Target specific scheduling app containers */
 div, span, p, h1, h2, h3, h4, h5, h6 {
-    font-size: 1px !important;
-    line-height: 1px !important;
+    font-size: 20px !important;
+    line-height: 20px !important;
 }
 
 /* Override meeting title */
 .meetingTitle, .meeting-title, .title {
-    font-size: 1px !important;
+    font-size: 100px !important;
 }
 
 /* Override room name */
