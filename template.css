@@ -1,17 +1,17 @@
 /* Force all text elements to 1px */
-* {
-    font-size: 10px !important;
-    line-height: 20px !important;
+.header .room-name {
+    font-size: 58px;
+    font-weight: bold;
 }
 
 /* Target specific scheduling app containers */
-span {
-    font-size: 60px !important;
-    line-height: 60px !important;
+div {
+    font-size: 10px !important;
+    line-height: 10px !important;
 }
 
 
-div, p, h1, h2, h5, h6 {
+span, p, h1, h2, h5, h6 {
     font-size: 1px !important;
     line-height: 1px !important;
 }
