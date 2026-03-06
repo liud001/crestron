@@ -5,13 +5,13 @@
 }
 
 /* Target specific scheduling app containers */
-p {
+div, p {
     font-size: 60px !important;
     line-height: 60px !important;
 }
 
 
-div, span, h1, h2, h5, h6 {
+span, h1, h2, h5, h6 {
     font-size: 1px !important;
     line-height: 1px !important;
 }
