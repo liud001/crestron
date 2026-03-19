@@ -1,33 +1,25 @@
-/* Force-hide all default status text elements */
-#statusText,
-#noMeetingLabel,
-#availableLabel,
-.status-text,
-.no-meeting-text,
-.available-text,
-div[id*="status"],
-div[class*="status"] {
-    visibility: hidden !important;
-    display: none !important;
+body {
+    background-color: #000000; /* Black background */
+    font-family: Arial, sans-serif;
 }
 
-/* Also hide any child spans that might hold text */
-#statusText span,
-.status-text span {
-    display: none !important;
+.header {
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
-/* Optional: remove padding so layout doesn't look empty */
-.status-container,
-#statusContainer {
-    padding: 0 !important;
-    margin: 0 !important;
+.statusAvailable {
+    background-color: #00cc66; /* Green for available */
+    color: #ffffff;
 }
 
-/* Optional: replace with your own message */
-.status-container::after,
-#statusContainer::after {
-    content: "" !important; /* Leave blank or add custom text */
-    font-size: 1.5em;
-    color: #FFFFFF;
+.statusReserved {
+    background-color: #cc0000; /* Red for reserved */
+    color: #ffffff;
+}
+
+.timeDisplay {
+    font-size: 90px;
+    font-weight: bold;
+    color: #ffffff;
 }
