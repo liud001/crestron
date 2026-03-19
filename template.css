@@ -1,25 +1,30 @@
-body {
-    background-color: #000000; /* Black background */
-    font-family: Arial, sans-serif;
+
+
+
+/* Target specific scheduling app containers */
+span {
+    font-size: 20px !important;
+    line-height: 20px !important;
 }
 
-.header {
-    background-color: #1a1a1a;
-    color: #ffffff;
+
+ p, h1, h2, h5, h6 {
+    font-size: 1px !important;
+    line-height: 1px !important;
 }
 
-.statusAvailable {
-    background-color: #00cc66; /* Green for available */
-    color: #ffffff;
+
+/* Override meeting title */
+.meetingTitle, .meeting-title, .title {
+    font-size: 100px !important;
 }
 
-.statusReserved {
-    background-color: #cc0000; /* Red for reserved */
-    color: #ffffff;
+/* Override room name */
+.roomName, .room-name {
+    font-size: 10px !important;
 }
 
-.timeDisplay {
-    font-size: 90px;
-    font-weight: bold;
-    color: #ffffff;
+/* Override status text */
+.status, .status-text {
+    font-size: 5px !important;
 }
