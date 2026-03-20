@@ -1,26 +1,27 @@
-/* Target any text in idle/attract mode overlay */
-[id*="Idle"],
-[class*="Idle"],
-[id*="idle"],
-[class*="idle"],
-[id*="screensaver"],
-[class*="screensaver"] {
-    color: transparent !important;
-    visibility: hidden !important;
-   /* display: none !important; */
+/* Target specific scheduling app containers */
+span {
+    font-size: 20px !important;
+    line-height: 20px !important;
 }
 
 
-/* Hide all child text nodes inside idle containers */
-[id*="Idle"] *:not(img),
-[class*="Idle"] *:not(img),
-[id*="idle"] *:not(img),
-[class*="idle"] *:not(img) {
-    display: none !important;
+ p, h1, h2, h5, h6 {
+    font-size: 1px !important;
+    line-height: 1px !important;
 }
 
-/* Optional: keep background/logo but remove text */
-[id*="Idle"] img,
-[class*="Idle"] img {
-    display: block !important;
+
+/* Override meeting title */
+.meetingTitle, .meeting-title, .title {
+    font-size: 100px !important;
+}
+
+/* Override room name */
+.roomName, .room-name {
+    font-size: 10px !important;
+}
+
+/* Override status text */
+.status, .status-text {
+    font-size: 5px !important;
 }
