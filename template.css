@@ -41,3 +41,29 @@ line-height: 1px
 font-weight: 400;
 }
 
+
+
+/* 'Available' or 'Reserved' label */
+.room__container__status__title__label1 {
+font-family: Crestron,sans-serif;
+font-style: normal;
+font-size: 1px;
+line-height: 1px
+margin-top: 4.3333333333vh;
+letter-spacing: 1px;
+text-transform: uppercase;
+display: block;
+}
+
+/* 'For next' label */
+.room__container__status__title__label2 {
+font-family: Crestron,sans-serif;
+font-style: normal;
+font-size: 1px;
+line-height: 1px
+font-weight: 400;
+margin-top: 2vh;
+letter-spacing: 1px;
+text-transform: uppercase;
+display: block;
+}
