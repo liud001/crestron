@@ -14,7 +14,7 @@ font-family: Crestron,sans-serif;
 font-style: normal;
 font-size: 2px;
 line-height: 2px;
-margin-left: 500px;
+margin-left: 5000px;
 }
 
 /* Available details section */
@@ -23,16 +23,16 @@ font-family: Crestron,sans-serif;
 font-style: normal;
 font-size: 2px;
 line-height: 2px;
-margin-left: 500px;
+margin-left: 5000px;
 }
 /* Date screensaver */
 .screensaver__container__current-time__date {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 80px;
-line-height: 40px
+font-size: 60px;
+line-height: 20px
 font-weight: 400;
-margin-left: -100px;
+margin-left: 200px;
 }
 /* Time screensaver */
 .screensaver__container__current-time__time {
