@@ -1,27 +1,30 @@
-/* Target specific scheduling app containers */
-span {
-    font-size: 20px !important;
-    line-height: 20px !important;
+/* Available details section */
+.screensaver__container__available__content {
+font-family: Crestron,sans-serif;
+font-style: normal;
+font-size: 1px !important;
+line-height: 1px !important;
 }
-
+/* Date screensaver */
+.screensaver__container__current-time__date {
+font-family: Crestron,sans-serif;
+font-style: normal;
+line-height: .75em;
+font-size: 4.3333333333vh;
+font-weight: 400;
+}
+/* Time screensaver */
+.screensaver__container__current-time__time {
+margin-top: 3.6666666667vh;
+font-family: Crestron,sans-serif;
+font-style: normal;
+line-height: .75em;
+font-size: 13vh;
+font-weight: 400;
+}
 
  p, h1, h2, h5, h6 {
-    font-size: 1px !important;
-    line-height: 1px !important;
-}
 
 
-/* Override meeting title */
-.meetingTitle, .meeting-title, .title {
-    font-size: 100px !important;
 }
 
-/* Override room name */
-.roomName, .room-name {
-    font-size: 10px !important;
-}
-
-/* Override status text */
-.status, .status-text {
-    font-size: 5px !important;
-}
