@@ -1,3 +1,13 @@
+/* Room name */
+.screensaver__container__room-details__name {
+text-transform: capitalize;
+white-space: nowrap;
+text-overflow: ellipsis;
+overflow: hidden;
+font-size: 1px;
+line-height: 1px;
+}
+
 /* Reserved details section */
 .screensaver__container__reserved__content {
 font-family: Crestron,sans-serif;
@@ -10,7 +20,7 @@ line-height: 1px;
 .screensaver__container__available__content {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 10px;
+font-size: 1px;
 line-height: 1px;
 }
 /* Date screensaver */
