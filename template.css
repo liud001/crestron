@@ -51,10 +51,10 @@ margin-left: -100px;
 .room__container__status__title__label1 {
 font-family: Crestron,sans-serif;
 font-style: normal;
-font-size: 1px;
-line-height: 1px
+font-size: 10px;
+line-height: 10px
 margin-top: 4.3333333333vh;
-letter-spacing: 1px;
+letter-spacing: 100px;
 text-transform: uppercase;
 display: block;
 }
