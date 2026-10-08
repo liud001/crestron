@@ -51,8 +51,8 @@ margin-left: -100px;
 .room__container__status__title__label1 {
 font-family: Crestron,sans-serif;
 font-style: italic;
-font-size: 10px;
-line-height: 10px
+font-size: 1vh;
+line-height: .1em;
 margin-top: 4.3333333333vh;
 letter-spacing: 100px;
 text-transform: uppercase;
