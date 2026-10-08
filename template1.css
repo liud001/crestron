@@ -13,6 +13,10 @@ width: 133.333333333vh;
 color: #0000ff;              /*#3cf799; */
 } 
 
+:root {
+    --color__main-color-3: #3498db; /* Example: blue */
+}
+
 /* Color for reserved label */ 
 .color__main-color-2 { 
 color: #ff2c55; 
