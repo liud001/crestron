@@ -9,6 +9,11 @@ width: 133.333333333vh;
 color: red !important;    
 } 
 
+.screensaver__container__available__content,
+.screensaver__container__available__content * {
+  font-size: 2.5vh !important;
+}
+
 /* Color for available label */ 
 .color__main-color-3 { 
 color: red !important;
