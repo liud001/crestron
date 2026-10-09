@@ -11,8 +11,14 @@ color: red !important;
 
 .screensaver__container--available .color__main-color-3,
 .screensaver__container--available .color__main-color-3 * {
-  font-size: 2.5vh !important;
+  font-size: 1.5vh !important;
 }
+
+.screensaver__container--available .color__main-color-3 + *,
+.screensaver__container--available .color__main-color-3 + * * {
+  font-size: 2vh !important;
+}
+
 /* Color for available label */ 
 .color__main-color-3 { 
 color: red !important;
