@@ -6,11 +6,12 @@ text-overflow: ellipsis;
 overflow: hidden; 
 line-height: 1.5em; 
 width: 133.333333333vh; 
+color: red !important;    
 } 
 
 /* Color for available label */ 
 .color__main-color-3 { 
-color: #0000ff;              /*#3cf799; */
+color: red !important;
 } 
 
 :root {
@@ -19,7 +20,7 @@ color: #0000ff;              /*#3cf799; */
 
 /* Color for reserved label */ 
 .color__main-color-2 { 
-color: #ff2c55; 
+color: red !important;
 }
 
 /* Reserved details section */ 
