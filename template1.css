@@ -9,8 +9,8 @@ width: 133.333333333vh;
 color: red !important;    
 } 
 
-.screensaver__container__available__content,
-.screensaver__container__available__content * {
+/* Test 1: everything inside the idle container (available state) */
+.screensaver__container--available * {
   font-size: 2.5vh !important;
 }
 
@@ -19,9 +19,6 @@ color: red !important;
 color: red !important;
 } 
 
-:root {
-    --color__main-color-3: #3498db; /* Example: blue */
-}
 
 /* Color for reserved label */ 
 .color__main-color-2 { 
