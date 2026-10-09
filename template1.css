@@ -9,11 +9,10 @@ width: 133.333333333vh;
 color: red !important;    
 } 
 
-/* Test 1: everything inside the idle container (available state) */
-.screensaver__container--available * {
+.screensaver__container--available .color__main-color-3,
+.screensaver__container--available .color__main-color-3 * {
   font-size: 2.5vh !important;
 }
-
 /* Color for available label */ 
 .color__main-color-3 { 
 color: red !important;
