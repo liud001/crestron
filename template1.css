@@ -35,9 +35,9 @@ line-height: 1.2;
 .screensaver__container__available__content { 
 font-family: Crestron,sans-serif; 
 font-style: normal; 
-font-size: 6vh; 
-font-weight: 500; 
-line-height: 1.2; 
+font-size: 1vh !important; 
+font-weight: 1; 
+line-height: .2; 
 } 
 /* Date screensaver */ 
 .screensaver__container__current-time__date { 
