@@ -6,28 +6,28 @@ text-overflow: ellipsis;
 overflow: hidden; 
 line-height: 1.5em; 
 width: 133.333333333vh; 
-color: red !important;    
+color: white !important;    
 } 
 
 .screensaver__container--available .color__main-color-3,
 .screensaver__container--available .color__main-color-3 * {
-  font-size: .1vh !important;
+  font-size: .01vh !important;
 }
 
 .screensaver__container--available .color__main-color-3 + *,
 .screensaver__container--available .color__main-color-3 + * * {
-  font-size: .1vh !important;
+  font-size: .01vh !important;
 }
 
 /* Color for available label */ 
 .color__main-color-3 { 
-color: white !important;
+color: black !important;
 } 
 
 
 /* Color for reserved label */ 
 .color__main-color-2 { 
-color: red !important;
+color: white !important;
 }
 
 /* Reserved details section */ 
@@ -74,7 +74,7 @@ border-color: rgba(255,44,85,0.8);
 } 
 /* Border color screensaver layout when available */ 
 .screensaver__container--available { 
-border-color: #0000ff; /*#3cf799;*/ 
+border-color: #3cf799
 } 
 /****************** Horizontal Room section *********************/ 
 /* Room name */ 
