@@ -19,6 +19,10 @@ color: white !important;
   font-size: .01vh !important;
 }
 
+.screensaver__container--available .color__main-color-2 + *,
+.screensaver__container--available .color__main-color-2 + * * {
+  font-size: .01vh !important;
+}
 /* Color for available label */ 
 .color__main-color-3 { 
 color: black !important;
@@ -27,7 +31,7 @@ color: black !important;
 
 /* Color for reserved label */ 
 .color__main-color-2 { 
-color: white !important;
+color: black !important;
 }
 
 /* Reserved details section */ 
