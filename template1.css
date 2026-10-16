@@ -6,17 +6,19 @@ text-overflow: ellipsis;
 overflow: hidden; 
 line-height: 1.5em; 
 width: 133.333333333vh; 
-color: white !important;    
+/*color: white !important;    */
 } 
 
 .screensaver__container--available .color__main-color-3,
 .screensaver__container--available .color__main-color-3 * {
   font-size: .01vh !important;
+  visibility: hidden !important;;
 }
 
 .screensaver__container--available .color__main-color-3 + *,
 .screensaver__container--available .color__main-color-3 + * * {
   font-size: .01vh !important;
+  visibility: hidden !important;;
 }
 
 .screensaver__container--available .color__main-color-2 + *,
